@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <listeners>
+<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+
+
+</listeners>
+ 
+ <test name="Test1"> 
+ 
+ <!-- <build>
+		<sourceDirectory>src/test/java</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.12.4</version>
+				<configuration>
+					Suite testng xml file to consider for test execution
+					<suiteXmlFiles>
+						<file>src/test/java/configurationFiles/PageObjectModel.xml</file>
+					</suiteXmlFiles>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+		
+		<resources>
+	<resource>
+		<directory>src/main/resources</directory>
+		<includes>
+			<include>log4j.properties</include>
+		</includes>
+	</resource>
+</resources>
+	</build> -->
+ 
+    <classes>
+       <class name="com.qa.test.HomepageTest"/>  
+    <!-- <class name="com.qa.test.LogInPageTest"/>   -->
+    </classes>
+    
+    
+  </test> 
+</suite> 

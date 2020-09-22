@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="49452" started-at="2020-05-28T07:46:24Z" finished-at="2020-05-28T07:47:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="49452" started-at="2020-05-28T07:46:24Z" finished-at="2020-05-28T07:47:13Z">
+      <class name="com.qa.test.LogInPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.test.LogInPageTest@124409e]" name="Setup" is-config="true" duration-ms="16687" started-at="2020-05-28T07:46:55Z" finished-at="2020-05-28T07:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.test.LogInPageTest@124409e]" name="loginPageTitleTest" duration-ms="520" started-at="2020-05-28T07:47:11Z" finished-at="2020-05-28T07:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LogInPageTest@124409e]" name="teardown" is-config="true" duration-ms="1228" started-at="2020-05-28T07:47:12Z" finished-at="2020-05-28T07:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.test.LogInPageTest -->
+      <class name="com.qa.test.HomepageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.test.HomepageTest@bc464]" name="Setup" is-config="true" duration-ms="29816" started-at="2020-05-28T07:46:24Z" finished-at="2020-05-28T07:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="PageTitle()[pri:0, instance:com.qa.test.HomepageTest@bc464]" name="PageTitle" duration-ms="83" started-at="2020-05-28T07:46:53Z" finished-at="2020-05-28T07:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomepageTest@bc464]" name="teardown" is-config="true" duration-ms="1062" started-at="2020-05-28T07:46:54Z" finished-at="2020-05-28T07:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.test.HomepageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

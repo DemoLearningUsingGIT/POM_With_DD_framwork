@@ -1,0 +1,5 @@
+com\qa\page\Homepage.class
+com\qa\util\TestUtil.class
+com\qa\page\LogInPage.class
+com\qa\base\Base.class
+com\qa\page\HotDeals.class
